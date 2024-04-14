@@ -1,9 +1,5 @@
-int x1Escalon1 = 0;
-int x2Escalon1 = 60;
-int yEscalon1 = 60;
-int xEscalon2 = 60;
-int y1Escalon2 = 60;
-int y2Escalon2 = 120;
+int x1Escalon1=0, x2Escalon1=60, yEscalon1 = 60;
+int xEscalon2 = 60, y1Escalon2 = 60, y2Escalon2 = 120;
 
 void setup() {
   size(500, 500);
