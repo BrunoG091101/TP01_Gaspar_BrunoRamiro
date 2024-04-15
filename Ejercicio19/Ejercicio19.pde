@@ -1,8 +1,6 @@
 int velocidad=1;
 int x1Linea=0;
 int yLinea=0;
-int x2Linea=500;
-int xCirculo=250;
 int yCirculo=40;
 
 void setup() {
@@ -11,6 +9,8 @@ void setup() {
 
 void draw() {
   background(0);
+  int x2Linea=width;
+  int xCirculo=width/2;
   yLinea+=velocidad;
   yCirculo+=velocidad;
   stroke(0, 216, 12);
